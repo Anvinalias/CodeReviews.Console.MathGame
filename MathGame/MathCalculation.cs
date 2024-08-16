@@ -6,7 +6,7 @@ namespace MathGame
     {
         int num1, num2;
         string question = "", outputString = "", optionOperator = "";
-        int actualResult = 0, userInput = 0;
+        int actualResult, userInput;
 
         // a list to store game history
         List<string> gameHistory = new List<string>();
@@ -79,7 +79,7 @@ namespace MathGame
         // math operation
         public static int Addition(int num1, int num2)
         {
-            return num1 + num2; ;
+            return num1 + num2; 
         }
 
         public static int Subtraction(int n1, int n2)
